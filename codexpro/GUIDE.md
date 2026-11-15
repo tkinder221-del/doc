@@ -1,3 +1,8 @@
+---
+title: "CodexPro — workspace operations"
+description: Practical technical guide and primary references
+---
+
 # CodexPro — workspace operations
 
 ## Purpose

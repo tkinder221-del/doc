@@ -1,3 +1,8 @@
+---
+title: "Codex — practical reference"
+description: Practical technical guide and primary references
+---
+
 # Codex — practical reference
 
 ## Scope
