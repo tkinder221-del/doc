@@ -9,7 +9,8 @@
       {
         "group": "Start",
         "pages": [
-          "index"
+          "index",
+          "feature-requests"
         ]
       },
       {
