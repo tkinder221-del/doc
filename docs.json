@@ -1,0 +1,28 @@
+{
+  "$schema": "https://context7.com/schema/docs7.json",
+  "name": "AI Developer Knowledge Hub",
+  "colors": {
+    "primary": "#2563EB"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Start",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Documentation",
+        "pages": [
+          "codex/guide",
+          "openai/guide",
+          "mcp/guide",
+          "chatgpt/guide",
+          "codexpro/guide",
+          "tools/guide"
+        ]
+      }
+    ]
+  }
+}
