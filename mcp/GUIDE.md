@@ -1,3 +1,8 @@
+---
+title: "Model Context Protocol — practical reference"
+description: Practical technical guide and primary references
+---
+
 # Model Context Protocol — practical reference
 
 ## Core concepts

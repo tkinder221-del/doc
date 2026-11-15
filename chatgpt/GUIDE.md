@@ -1,3 +1,8 @@
+---
+title: "ChatGPT — documentation and integrations"
+description: Practical technical guide and primary references
+---
+
 # ChatGPT — documentation and integrations
 
 ## Workflows

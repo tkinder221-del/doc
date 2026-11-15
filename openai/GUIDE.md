@@ -1,3 +1,8 @@
+---
+title: "OpenAI API — practical reference"
+description: Practical technical guide and primary references
+---
+
 # OpenAI API — practical reference
 
 ## API architecture
