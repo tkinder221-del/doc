@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "description": "Unique Context7 libraries supplied by user, verified against Context7",
+  "sources": [
+    {
+      "folder": "codex/codex",
+      "title": "Codex CLI",
+      "type": "repo",
+      "context7_url": "https://context7.com/openai/codex",
+      "library_id": "/openai/codex",
+      "source_url": "https://github.com/openai/codex"
+    },
+    {
+      "folder": "codex/acp",
+      "title": "Codex ACP",
+      "type": "repo",
+      "context7_url": "https://context7.com/zed-industries/codex-acp",
+      "library_id": "/zed-industries/codex-acp",
+      "source_url": "https://github.com/zed-industries/codex-acp"
+    },
+    {
+      "folder": "codex/learn",
+      "title": "Codex learning documentation",
+      "type": "llmstxt",
+      "context7_url": "https://context7.com/llmstxt/learn_chatgpt_llms-full_txt",
+      "library_id": "/llmstxt/learn_chatgpt_llms-full_txt",
+      "source_url": "https://learn.chatgpt.com/docs/llms-full.txt"
+    },
+    {
+      "folder": "openai/developers",
+      "title": "OpenAI Developers",
+      "type": "website",
+      "context7_url": "https://context7.com/websites/developers_openai",
+      "library_id": "/websites/developers_openai",
+      "source_url": "https://developers.openai.com/chatgpt"
+    },
+    {
+      "folder": "openai/api",
+      "title": "OpenAI API",
+      "type": "website",
+      "context7_url": "https://context7.com/websites/developers_openai_api",
+      "library_id": "/websites/developers_openai_api",
+      "source_url": "https://developers.openai.com/api/docs/mcp"
+    },
+    {
+      "folder": "openai/llms",
+      "title": "OpenAI llms.txt",
+      "type": "llmstxt",
+      "context7_url": "https://context7.com/llmstxt/developers_openai_llms_txt",
+      "library_id": "/llmstxt/developers_openai_llms_txt",
+      "source_url": "https://developers.openai.com/llms.txt"
+    },
+    {
+      "folder": "openai/llms-full",
+      "title": "OpenAI llms-full.txt",
+      "type": "llmstxt",
+      "context7_url": "https://context7.com/llmstxt/developers_openai_llms-full_txt",
+      "library_id": "/llmstxt/developers_openai_llms-full_txt",
+      "source_url": "https://developers.openai.com/llms-full.txt"
+    },
+    {
+      "folder": "openai/plugins",
+      "title": "OpenAI Plugins",
+      "type": "website",
+      "context7_url": "https://context7.com/websites/developers_openai_plugins",
+      "library_id": "/websites/developers_openai_plugins",
+      "source_url": "https://github.com/context7/developers_openai_plugins"
+    },
+    {
+      "folder": "openai/cookbook-site",
+      "title": "OpenAI Cookbook website",
+      "type": "website",
+      "context7_url": "https://context7.com/websites/developers_openai_cookbook",
+      "library_id": "/websites/developers_openai_cookbook",
+      "source_url": "https://developers.openai.com/cookbook/topic/codex"
+    },
+    {
+      "folder": "openai/python",
+      "title": "OpenAI Python SDK",
+      "type": "repo",
+      "context7_url": "https://context7.com/openai/openai-python",
+      "library_id": "/openai/openai-python",
+      "source_url": "https://github.com/openai/openai-python"
+    },
+    {
+      "folder": "openai/cookbook",
+      "title": "OpenAI Cookbook repository",
+      "type": "repo",
+      "context7_url": "https://context7.com/openai/openai-cookbook",
+      "library_id": "/openai/openai-cookbook",
+      "source_url": "https://github.com/openai/openai-cookbook"
+    },
+    {
+      "folder": "openai/openapi",
+      "title": "OpenAI OpenAPI specification",
+      "type": "repo",
+      "context7_url": "https://context7.com/openai/openai-openapi",
+      "library_id": "/openai/openai-openapi",
+      "source_url": "https://github.com/openai/openai-openapi"
+    },
+    {
+      "folder": "mcp/go",
+      "title": "MCP Go SDK",
+      "type": "repo",
+      "context7_url": "https://context7.com/findleyr/mcp",
+      "library_id": "/findleyr/mcp",
+      "source_url": "https://github.com/findleyr/mcp"
+    },
+    {
+      "folder": "mcp/use",
+      "title": "mcp-use documentation",
+      "type": "website",
+      "context7_url": "https://context7.com/websites/mcp-use",
+      "library_id": "/websites/mcp-use",
+      "source_url": "https://docs.mcp-use.com/typescript/getting-started/welcome"
+    },
+    {
+      "folder": "chatgpt/learn",
+      "title": "ChatGPT learning docs",
+      "type": "website",
+      "context7_url": "https://context7.com/websites/learn_chatgpt",
+      "library_id": "/websites/learn_chatgpt",
+      "source_url": "https://github.com/context7/learn_chatgpt"
+    },
+    {
+      "folder": "tools/codeproxy",
+      "title": "CodeProxy",
+      "type": "website",
+      "context7_url": "https://context7.com/websites/codeproxy_dev",
+      "library_id": "/websites/codeproxy_dev",
+      "source_url": "https://github.com/context7/codeproxy_dev"
+    },
+    {
+      "folder": "codexpro/main",
+      "title": "CodexPro",
+      "type": "repo",
+      "context7_url": "https://context7.com/rebel0789/codexpro",
+      "library_id": "/rebel0789/codexpro",
+      "source_url": "https://github.com/rebel0789/codexpro"
+    }
+  ]
+}
