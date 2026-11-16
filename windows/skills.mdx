@@ -1,0 +1,40 @@
+---
+title: "Skille do tworzenia aplikacji Windows"
+description: "Wybierz ścieżkę dla aplikacji Windows i uruchom odpowiedni skill Codex."
+---
+
+| Skill | Kiedy użyć | Weryfikacja na Windows |
+| --- | --- | --- |
+| `windows-python-app` | Narzędzie do plików lub danych. Tkinter do prostego okna, PySide6 do rozbudowanego GUI. | Testy logiki oraz uruchomienie spakowanej aplikacji na komputerze bez środowiska deweloperskiego. |
+| `windows-powershell-tool` | Automatyzacja, raport, diagnostyka lub wewnętrzne narzędzie administracyjne. | Pester, próbne uruchomienie z `-WhatIf` oraz test w zadeklarowanej edycji PowerShell. |
+| `windows-dotnet-app` | Aplikacja C# z WPF, WinUI 3 lub WinForms, zależnie od produktu i istniejącego kodu. | Build, testy i uruchomienie opublikowanej aplikacji na docelowej wersji i architekturze Windows. |
+| `windows-gui-design` | Zaprojektowanie lub odświeżenie GUI w aplikacji Python albo .NET. Używaj razem ze skillem wybranej technologii. | Główna ścieżka użytkownika, klawiatura, skalowanie DPI, zmiana rozmiaru i stany błędów. |
+| `windows-powershell-advanced` | Większe skrypty i moduły uruchamiane cyklicznie, hurtowo lub bez nadzoru. | Pester, częściowa awaria, ponowne uruchomienie i test w docelowym środowisku automatyzacji. |
+
+## Użycie w Codex
+
+W kopii repozytorium znajdziesz pliki w `skills/<nazwa>/SKILL.md`. Skopiuj wybrany folder do `.agents/skills/` w repozytorium aplikacji. Otwórz to repozytorium w Codex i wpisz nazwę skilla w poleceniu, na przykład:
+
+- `$windows-python-app Zbuduj lokalne narzędzie GUI do podglądu i filtrowania plików CSV.`
+- `$windows-powershell-tool Zbuduj moduł, który tworzy raport zajętości dysku i zapisuje go jako CSV.`
+- `$windows-dotnet-app Zbuduj aplikację WPF do przeglądania i filtrowania lokalnych logów.`
+- `$windows-gui-design Dopracuj ekran filtrowania logów. Sprawdź klawiaturę, skalowanie 150% i pustą listę.`
+- `$windows-powershell-advanced Zbuduj moduł archiwizacji logów z WhatIf, raportem błędów i wznowieniem po przerwaniu.`
+
+## Workflow, MCP i infrastruktura
+
+| Skill | Do czego służy | Przykład polecenia |
+| --- | --- | --- |
+| `task-workflow` | Wykonanie zadania od ustalenia wyniku przez zmiany i testy aż do raportu. Grupuje pytania i korzysta z już udzielonych zgód. | `$task-workflow Napraw lokalny build i sprawdź testy. Możesz edytować pliki projektu. Publikację zostaw do mojej decyzji.` |
+| `skill-mcp-discovery` | Wyszukanie, porównanie i połączenie skilli, serwerów MCP i dostępnych narzędzi. | `$skill-mcp-discovery Znajdź zestaw do wyszukiwania dokumentacji, analizy lokalnych plików i podglądu WWW. Pokaż wymagane uprawnienia.` |
+| `it-development-networking` | Rozwój i utrzymanie własnych usług, diagnoza DNS, TLS, proxy i połączeń między komponentami. | `$it-development-networking Sprawdź, dlaczego lokalna aplikacja działa na localhost, ale zwraca błąd przez moje proxy.` |
+
+Te skille można łączyć. `task-workflow` prowadzi zadanie i pilnuje zakresu zgód, `skill-mcp-discovery` dobiera narzędzia, a `it-development-networking` prowadzi diagnostykę i weryfikację usługi.
+
+Przy projekcie z OpenAI opisz też, jakie dane aplikacja ma przesyłać. W aplikacji rozprowadzanej do innych osób trzymaj wspólny klucz API na własnym serwerze. [Zasady ochrony kluczy OpenAI](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)
+
+## Dokumentacja technologii
+
+- Python — [Tkinter](https://docs.python.org/3/library/tkinter.html) i [Qt for Python](https://doc.qt.io/qtforpython-6/).
+- PowerShell — [dokumentacja PowerShell](https://learn.microsoft.com/powershell/) i [Pester](https://pester.dev/docs/quick-start).
+- .NET — [tworzenie aplikacji Windows](https://learn.microsoft.com/windows/apps/) i [oficjalny klient OpenAI dla .NET](https://github.com/openai/openai-dotnet).
