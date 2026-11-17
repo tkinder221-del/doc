@@ -15,5 +15,5 @@ CodexPro connects an AI assistant to explicitly allowed local development worksp
 The local `gh` CLI uses the active authenticated GitHub identity. Check `gh api user --jq .login` before creating repositories. Use `git status` and `git diff --cached` to review the intended publication. Never commit `.env`, API keys, databases or virtual environments.
 
 ## References
-- https://github.com/rebel0789/codexpro
-- https://context7.com/rebel0789/codexpro
+- https://github.com/tkinder221-del/codexpro
+- https://context7.com/tkinder221-del/codexpro
