@@ -4,12 +4,12 @@ Jedno repozytorium dokumentacyjne dla wielu tematów. Ten katalog jest **rejestr
 
 ## Kategorie
 
-- [codex/](codex/README.md) — 3 źródeł
-- [openai/](openai/README.md) — 9 źródeł
-- [mcp/](mcp/README.md) — 2 źródeł
-- [chatgpt/](chatgpt/README.md) — 1 źródeł
-- [tools/](tools/README.md) — 1 źródeł
-- [codexpro/](codexpro/README.md) — 1 źródeł
+- [codex/](https://github.com/tkinder221-del/doc/blob/main/codex/README.md) — 3 źródeł
+- [openai/](https://github.com/tkinder221-del/doc/blob/main/openai/README.md) — 9 źródeł
+- [mcp/](https://github.com/tkinder221-del/doc/blob/main/mcp/README.md) — 2 źródeł
+- [chatgpt/](https://github.com/tkinder221-del/doc/blob/main/chatgpt/README.md) — 1 źródeł
+- [tools/](https://github.com/tkinder221-del/doc/blob/main/tools/README.md) — 1 źródeł
+- [codexpro/](https://github.com/tkinder221-del/doc/blob/main/codexpro/README.md) — 1 źródeł
 
 ## Użycie
 
@@ -30,7 +30,7 @@ Do wyszukiwania w tym katalogu użyj narzędzia MCP `query-docs` z identyfikator
 }
 ```
 
-- **Gdzie sprawdzić uprawnienia Codex?** Zacznij od [przewodnika Codex](codex/GUIDE.md), a aktualne opcje konfiguracji sprawdź w źródłach wskazanych w [katalogu Codex](codex/README.md).
+- **Gdzie sprawdzić uprawnienia Codex?** Zacznij od [przewodnika Codex](codex/GUIDE.md), a aktualne opcje konfiguracji sprawdź w źródłach wskazanych w [katalogu Codex](https://github.com/tkinder221-del/doc/blob/main/codex/README.md).
 - **Gdzie znaleźć poradniki OpenAI i MCP?** [Przewodnik OpenAI](openai/GUIDE.md) obejmuje API, narzędzia, RAG i ewaluację. [Przewodnik MCP](mcp/GUIDE.md) obejmuje projektowanie serwerów, transport i bezpieczeństwo.
 - **Jak znaleźć szczegóły w dokumentacji źródłowej?** Odszukaj bibliotekę dla danego tematu w [`sources.json`](sources.json) i wykonaj osobne zapytanie `query-docs` z jej identyfikatorem.
 
